@@ -106,6 +106,7 @@ p {
 .navbar-default .nav > li.active > a:focus:hover {
   background-color: transparent;
 }
+
 @media (min-width: 768px) {
   .navbar-default {
     background-color: transparent;
@@ -175,6 +176,8 @@ header .device-container {
 header .device-container .screen img {
   border-radius: 3px;
 }
+
+/*Responsive - 768 px*/
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -200,6 +203,8 @@ header .device-container .screen img {
     margin: 100px auto 0;
   }
 }
+
+/*Responsive - 992 px*/
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
     font-size: 50px;

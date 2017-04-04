@@ -1,5 +1,5 @@
 .row {
-  margin: 56px 24px; // change this to less when responsive
+  margin: 40px 24px; // change this to less when responsive
 }
 
 .titles {
@@ -19,8 +19,17 @@ p {
   margin: 124px auto;
 }
 
+.divider-research{
+  width: 94%;
+  height: 1px;
+  background-color: rgba(0,0,0,0.1);
+  margin: 4px auto;
+}
+
+/*navbar-brand, navbar-nav added for main page heading*/
+
 .navbar-brand{
-    font-size: 24px;
+    font-size: 22px;
     margin-top: 10px;
 }
 
@@ -29,26 +38,46 @@ p {
     font-weight: 400;
 }
 
-i {
+/*projects page*/
+
+.section-research{
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+.section-project h1{
+  padding-left: 40%;
+}
+
+.work-handled{
+    color: #b61924;
+    border: #b61924 solid 1px;
+    background: white;
+    font-size: 13px;
+    font-style: normal;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.work-handled:hover {
+  background-color: #b61924;
   color: white;
+  border: 1px solid #b61924;  
+  cursor: pointer;
 }
 
-.btn-primary, .btn-primary:active, .btn-primary:focus {
-  color: #E91E63;
-  border: 2px solid #E91E63;
-  background-color: white;
-  font-size: 12px;
-  padding: 8px 16px;
-  margin-right: 16px;
-  border-radius: 4px;
-
+.social-media-icons i{
+  color: #000000 !important;
 }
 
-.btn-primary:hover {
-  background-color: #E91E63;
-  color: white;
-  border: 2px solid #E91E63;
+.social-media-icons i:hover{
+  /*color: #ffffff !important;*/
 }
+
+
 
 .intro {
   margin-top: 15%; // change to responsive
@@ -195,4 +224,9 @@ footer a:hover, footer a:active, footer a:focus {
 
 .navbar-default.affix .navbar-header .navbar-brand:hover {
   color: #E91E63;
+}
+
+/*projects.html*/
+.subNav{
+    background: #000000;
 }
