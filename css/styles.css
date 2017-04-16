@@ -173,6 +173,31 @@ footer a:hover, footer a:active, footer a:focus {
   color: #ffffff !important;
 }
 
+@media (max-width: 420px) {
+  #home .navbar-default{
+    background-color: transparent;
+  }
+  
+  #home .navbar-default a{
+    color: #ffffff !important;
+  }
+
+  #home .navbar-default .navbar-header .navbar-toggle{
+    color: #ffffff;
+  }
+
+  #home .navbar-default .navbar-collapse{
+    background-color: #f7f7f7;
+  }
+
+  #home .navbar-default .navbar-collapse li > a{
+    color: #000000 !important;
+  }
+
+  #home .navbar-default .navbar-toggle:focus, #home .navbar-default .navbar-toggle:hover{
+    background-color: transparent;
+  }
+}
 /*HOME END*/
 
 /*ABOUT*/
