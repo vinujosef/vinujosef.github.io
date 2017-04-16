@@ -201,7 +201,7 @@ footer a:hover, footer a:active, footer a:focus {
   margin-top: 20px;
   margin-right: 16px;
   border-radius: 4px;
-  cursor: pointer;
+  cursor: default !important;
 }
 
 .work-handled:hover {
@@ -226,14 +226,75 @@ footer a:hover, footer a:active, footer a:focus {
 
 /*CV*/
 
+.section-cv .cv-head a{
+  font-family: 'Lato', 'sans-serif';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.download-pdf {
+  background: white;
+  border: #b61924 solid 1px;
+  border-radius: 4px;
+  color: #b61924;
+  font-size: 13px;
+  font-style: normal;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  height: 20px;
+}
+
+.download-pdf:hover {
+  background-color: #b61924;
+  color: white;
+  border: 1px solid #b61924;
+  cursor: pointer;
+}
+
+div .download-pdf{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+}
+
+.row .sub-heading h3{
+  font-family: 'Catamaran', 'sans-serif';
+  font-weight: 300;
+  padding-left: 50px;
+}
+
+#cv-2 .row, #cv-3 .row, #cv-4 .row, #cv-5 .row, #cv-6 .row, #cv-7 .row{
+  margin-left: -15px;
+  margin-top: 0;
+}
+
+#cv-5{
+  font-family: 'Catamaran', 'sans-serif';
+  font-size: 16px;
+  font-weight: 200;
+  padding-top: 120;
+}
+
+#cv-5 .row{
+  padding-top: 20px;
+}
 /*CV END*/
 
 /*ALL EXCEPT HOME*/
+
 .navbar-default .sub-menu a {
   color: #000000 !important;
 }
 
-#projects .projects, #research .research {
+#projects .projects, #research .research, #cv .cv{
+  /*border-bottom: 2px solid #b61924;*/
+  padding-bottom: 7px;
   border-bottom: 2px solid #b61924;
 }
+
 /*ALL EXCEPT HOME END*/
