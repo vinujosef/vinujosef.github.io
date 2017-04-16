@@ -297,4 +297,8 @@ div .download-pdf{
   border-bottom: 2px solid #b61924;
 }
 
+footer{
+  font-size: 12px;
+  font-family: 'Catamaran', 'sans-serif';
+}
 /*ALL EXCEPT HOME END*/
