@@ -169,9 +169,7 @@ footer a:hover, footer a:active, footer a:focus {
   color: #000000 !important;
 }
 
-.social-media-icons i:hover{
-  color: #ffffff !important;
-}
+/* Breakpoint for Mobile */
 
 @media (max-width: 420px) {
   #home .navbar-default{
@@ -196,6 +194,19 @@ footer a:hover, footer a:active, footer a:focus {
 
   #home .navbar-default .navbar-toggle:focus, #home .navbar-default .navbar-toggle:hover{
     background-color: transparent;
+  }
+
+  .intro{
+    margin-top: 50%;
+  }
+
+  #home h1{
+    font-size: 36px;
+  }
+
+  #home h2{
+    padding-top: 10px;
+    font-size: 15px;
   }
 }
 /*HOME END*/
@@ -236,6 +247,21 @@ footer a:hover, footer a:active, footer a:focus {
   cursor: pointer;
 }
 
+@media (max-width: 420px) {
+  #projects .programming-language{
+    line-height: 18px;
+  }
+
+  #projects p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  #projects .work-handled{
+    display: block;
+    margin-top: 10px;
+  }
+}
 /*PROJECTS END*/
 
 /*RESEARCH*/
@@ -316,8 +342,7 @@ div .download-pdf{
   color: #000000 !important;
 }
 
-#projects .projects, #research .research, #cv .cv{
-  /*border-bottom: 2px solid #b61924;*/
+#about .about, #projects .projects, #research .research, #cv .cv{
   padding-bottom: 7px;
   border-bottom: 2px solid #b61924;
 }
@@ -325,5 +350,13 @@ div .download-pdf{
 footer{
   font-size: 12px;
   font-family: 'Catamaran', 'sans-serif';
+}
+
+@media (max-width: 420px) {
+  #about .about, #projects .projects, #research .research, #cv .cv {
+    padding-bottom: 7px;
+    border-bottom: none;
+    font-weight: 700 !important;
+  }
 }
 /*ALL EXCEPT HOME END*/

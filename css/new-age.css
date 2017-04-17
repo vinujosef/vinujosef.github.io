@@ -9,7 +9,7 @@
   letter-spacing: 1px;
 }
 .body-font {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  /*font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';*/
 }
 .alt-font {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
@@ -28,12 +28,8 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #fdcc52;
 }
-a:hover,
-a:focus {
-  color: #fcbd20;
-}
+
 hr {
   max-width: 100px;
   margin: 25px auto 0;
@@ -82,6 +78,7 @@ p {
   font-size: 12px;
   color: #222222;
   padding: 8px 10px;
+  margin-top: 15px;
 }
 .navbar-default .nav > li > a {
   font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
