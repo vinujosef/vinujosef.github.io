@@ -169,7 +169,7 @@ footer a:hover, footer a:active, footer a:focus {
   color: #000000 !important;
 }
 
-/* Breakpoint for Mobile */
+/* Breakpoints for Mobile */
 
 @media (max-width: 420px) {
   #home .navbar-default{
@@ -247,6 +247,7 @@ footer a:hover, footer a:active, footer a:focus {
   cursor: pointer;
 }
 
+/* Breakpoint for Mobile */
 @media (max-width: 420px) {
   #projects .programming-language{
     line-height: 18px;
@@ -271,6 +272,20 @@ footer a:hover, footer a:active, footer a:focus {
   height: 1px;
   background-color: rgba(0,0,0,0.1);
   margin: 4px auto;
+}
+
+/* Breakpoint for Mobile */
+@media (max-width: 420px) {
+
+  #research h3{
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  #research p{
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 
 /*RESEARCH END*/
@@ -333,6 +348,17 @@ div .download-pdf{
 
 #cv-5 .row{
   padding-top: 20px;
+}
+
+/* Breakpoint for Mobile */
+@media (max-width: 420px) {
+  #cv-1{
+    text-align: center;
+  }
+
+  .row .sub-heading h3{
+    padding-left: 0 !important;
+  }
 }
 /*CV END*/
 
