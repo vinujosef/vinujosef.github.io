@@ -209,6 +209,14 @@ footer a:hover, footer a:active, footer a:focus {
     font-size: 15px;
   }
 }
+
+/*Breakpoint for HiDPI screen*/
+
+@media (min-width: 1400px) {
+  #home .intro{
+    margin-top: 20%;
+  }
+}
 /*HOME END*/
 
 /*ABOUT*/
@@ -238,13 +246,6 @@ footer a:hover, footer a:active, footer a:focus {
   margin-right: 16px;
   border-radius: 4px;
   cursor: default !important;
-}
-
-.work-handled:hover {
-  background-color: #b61924;
-  color: white;
-  border: 1px solid #b61924;
-  cursor: pointer;
 }
 
 /* Breakpoint for Mobile */
@@ -288,6 +289,13 @@ footer a:hover, footer a:active, footer a:focus {
   }
 }
 
+/*Breakpiont for Tablet*/
+@media (min-width: 767px){
+  #research h3{
+    line-height: 28px;
+  }
+}
+
 /*RESEARCH END*/
 
 /*CV*/
@@ -308,11 +316,12 @@ footer a:hover, footer a:active, footer a:focus {
   color: #b61924;
   font-size: 13px;
   font-style: normal;
-  margin-top: 20px;
+  position: relative;
+  margin-top: 215px;
   margin-left: 20px;
   padding: 10px 20px 10px 20px;
   text-align: center;
-  height: 20px;
+  height: 40px;
 }
 
 .download-pdf:hover {
@@ -325,7 +334,6 @@ footer a:hover, footer a:active, footer a:focus {
 div .download-pdf{
   text-align: center;
   vertical-align: middle;
-  line-height: 60px;
 }
 
 .row .sub-heading h3{
@@ -343,7 +351,6 @@ div .download-pdf{
   font-family: 'Catamaran', 'sans-serif';
   font-size: 16px;
   font-weight: 200;
-  padding-top: 120;
 }
 
 #cv-5 .row{
@@ -358,6 +365,27 @@ div .download-pdf{
 
   .row .sub-heading h3{
     padding-left: 0 !important;
+  }
+
+  .download-pdf{
+
+  }
+}
+
+/* Breakpoint for Tablet*/
+@media (min-width: 768px) {
+  .row .sub-heading h3{
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 990px){
+
+  .download-pdf{
+    position: relative;
+    display: block;
+    width: 150px;
+    margin-top: 20px;
   }
 }
 /*CV END*/

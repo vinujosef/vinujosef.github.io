@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cv.html" afterPath="$PROJECT_DIR$/cv.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/particle.js" afterPath="$PROJECT_DIR$/js/particle.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="51" />
+            <state relative-caret-position="187">
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#1172#1178#0" expanded="true" />
               </folding>
@@ -34,20 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-age.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/new-age.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5814">
-              <caret line="342" column="41" lean-forward="false" selection-start-line="342" selection-start-column="41" selection-end-line="342" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
+            <state relative-caret-position="-140">
               <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
               <folding>
                 <element signature="e#5328#5334#0" expanded="true" />
@@ -72,29 +63,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="359" column="31" lean-forward="false" selection-start-line="359" selection-start-column="31" selection-end-line="359" selection-end-column="31" />
+            <state relative-caret-position="185">
+              <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cv.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cv.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cv.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="287">
+              <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
               <folding>
                 <element signature="e#2228#2234#0" expanded="true" />
                 <element signature="e#2418#2424#0" expanded="true" />
                 <element signature="e#2666#2672#0" expanded="true" />
                 <element signature="e#2799#2805#0" expanded="true" />
-                <element signature="e#9051#9057#0" expanded="true" />
-                <element signature="e#9058#9064#0" expanded="true" />
-                <element signature="e#9065#9071#0" expanded="true" />
+                <element signature="e#9197#9203#0" expanded="true" />
+                <element signature="e#9204#9210#0" expanded="true" />
+                <element signature="e#9211#9217#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,7 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>muli</find>
       <find>@media</find>
       <find>s</find>
       <find>stats.js</find>
@@ -143,6 +133,7 @@
       <find>intro</find>
       <find>social-media</find>
       <find>social-med</find>
+      <find>block</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,15 +143,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/particle.css" />
-        <option value="$PROJECT_DIR$/js/particle.js" />
         <option value="$PROJECT_DIR$/js/new-age.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/research.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/new-age.css" />
         <option value="$PROJECT_DIR$/projects.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/js/particle.js" />
         <option value="$PROJECT_DIR$/cv.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -235,7 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -306,7 +297,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,12 +437,13 @@
       <workItem from="1492095100928" duration="1795000" />
       <workItem from="1492107778971" duration="599000" />
       <workItem from="1492241401152" duration="25386000" />
-      <workItem from="1492417790492" duration="3680000" />
+      <workItem from="1492417790492" duration="4473000" />
+      <workItem from="1492448413594" duration="11069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110613000" />
+    <option name="totallyTimeSpent" value="122475000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,6 +456,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1436012" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -471,7 +464,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.49702382" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -761,13 +754,6 @@
     <entry file="file://$PROJECT_DIR$/img/hourglass.png" />
     <entry file="file://$PROJECT_DIR$/img/wistem.png" />
     <entry file="file://$PROJECT_DIR$/LICENSE" />
-    <entry file="file://$PROJECT_DIR$/js/particles.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/new-age.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -815,13 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/particle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="113" column="1" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -874,33 +853,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects.html">
+    <entry file="file://$PROJECT_DIR$/js/particles.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-          <folding>
-            <element signature="e#5328#5334#0" expanded="true" />
-            <element signature="e#5335#5341#0" expanded="true" />
-            <element signature="e#5342#5348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/new-age.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5814">
-          <caret line="342" column="41" lean-forward="false" selection-start-line="342" selection-start-column="41" selection-end-line="342" selection-end-column="41" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="51" />
+        <state relative-caret-position="187">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="e#1172#1178#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/particle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="50" column="16" lean-forward="false" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new-age.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="342" column="41" lean-forward="false" selection-start-line="342" selection-start-column="41" selection-end-line="342" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -916,27 +899,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="359" column="31" lean-forward="false" selection-start-line="359" selection-start-column="31" selection-end-line="359" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="-140">
+          <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
+          <folding>
+            <element signature="e#5328#5334#0" expanded="true" />
+            <element signature="e#5335#5341#0" expanded="true" />
+            <element signature="e#5342#5348#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cv.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="287">
+          <caret line="64" column="48" lean-forward="false" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
           <folding>
             <element signature="e#2228#2234#0" expanded="true" />
             <element signature="e#2418#2424#0" expanded="true" />
             <element signature="e#2666#2672#0" expanded="true" />
             <element signature="e#2799#2805#0" expanded="true" />
-            <element signature="e#9051#9057#0" expanded="true" />
-            <element signature="e#9058#9064#0" expanded="true" />
-            <element signature="e#9065#9071#0" expanded="true" />
+            <element signature="e#9197#9203#0" expanded="true" />
+            <element signature="e#9204#9210#0" expanded="true" />
+            <element signature="e#9211#9217#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="380" column="0" lean-forward="false" selection-start-line="380" selection-start-column="0" selection-end-line="380" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
