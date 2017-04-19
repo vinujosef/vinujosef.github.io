@@ -322,6 +322,7 @@ footer a:hover, footer a:active, footer a:focus {
   padding: 10px 20px 10px 20px;
   text-align: center;
   height: 40px;
+  text-decoration: none;
 }
 
 .download-pdf:hover {
@@ -329,6 +330,7 @@ footer a:hover, footer a:active, footer a:focus {
   color: white;
   border: 1px solid #b61924;
   cursor: pointer;
+  text-decoration: none;
 }
 
 div .download-pdf{
@@ -382,8 +384,8 @@ div .download-pdf{
 @media (min-width: 990px){
 
   .download-pdf{
-    position: relative;
     display: block;
+    position: relative;
     width: 150px;
     margin-top: 20px;
   }
