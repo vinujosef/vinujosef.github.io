@@ -325,12 +325,16 @@ footer a:hover, footer a:active, footer a:focus {
   text-decoration: none;
 }
 
-.download-pdf:hover , .download:active{
+.download-pdf:hover, .download-pdf:active {
   background-color: #b61924;
   color: white;
   border: 1px solid #b61924;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
+}
+
+ .download-pdf:focus, .download-pdf:visited{
+  text-decoration: none !important;
 }
 
 div .download-pdf{
@@ -400,6 +404,7 @@ footer a{
 
 .navbar-default .sub-menu a {
   color: #000000 !important;
+  text-decoration: none;
 }
 
 #about .about, #projects .projects, #research .research, #cv .cv{
